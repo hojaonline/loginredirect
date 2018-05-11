@@ -1,0 +1,22 @@
+{
+    "name": "hojaonline/loginredirect",
+    "description": "Redirect to external url when a user with given usergroup is logged in",
+    "type": "typo3-cms-extension",
+    "version": "2.0.0",
+    "license": "GPL-3.0+",
+    "require": {
+        "typo3/cms-core": ">=6.2.0,<9.0.0"
+    },
+    "authors": [
+        {
+            "name": "Bernhard Baumgartl, datamints GmbH",
+            "email": "b.baumgartl@datamints.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PITS\\Loginredirect\\": "Classes/"
+        }
+    }
+}
